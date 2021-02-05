@@ -27,7 +27,7 @@
         } else {
             if(!empty($_POST['email'])) {
                 if (filter_var($_POST['email'], FILTER_VALIDATE_EMAIL)) {
-                    $email = "<b>Почта: </b> " . trim(strip_tags($_POST['email'])) . "<br>";
+                    $email = trim(strip_tags($_POST['email']));
                 } else {
                     $msgs['email'] = MSGSEMAILINCORRECT;
                 }
