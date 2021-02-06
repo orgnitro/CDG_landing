@@ -37,7 +37,7 @@
     //         }
     // } 
 
-		$text = '<span>Thank you for visiting COMME des GARCONS fake landing page by Orgnitro.<br>Check out our updates.</span>'
+		$text = '<span>Thank you for visiting COMME des GARCONS fake landing page by Orgnitro.<br>Check out our updates.</span>';
 		$mail->setFrom('kumsingh78@gmail.com');
     $mail->addAddress($email);
     $mail->CharSet = 'UTF-8';
