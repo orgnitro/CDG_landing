@@ -2,29 +2,29 @@
 	// *** Настройка обязательности полей, в случае если они присутствуют в вашей форме
 
 	// Имя
-	// const NAMEISREQUIRED = true;
-	// const MSGSNAMEERROR = "Required";
+	const NAMEISREQUIRED = true;
+	const MSGSNAMEERROR = "⚠ Поле обязательно для заполнения";
 
 	// Телефон
-	// const TELISREQUIRED = true;
-	// const MSGSTELERROR = "⚠ Поле обязательно для заполнения";
+	const TELISREQUIRED = true;
+	const MSGSTELERROR = "⚠ Поле обязательно для заполнения";
 
 	// Email
-	// const EMAILISREQUIRED = true;
-	// const MSGSEMAILERROR = "Required";
-	// const MSGSEMAILINCORRECT = "⚠ Некорректный почтовый адрес";
+	const EMAILISREQUIRED = true;
+	const MSGSEMAILERROR = "⚠ Поле обязательно для заполнения";
+	const MSGSEMAILINCORRECT = "⚠ Некорректный почтовый адрес";
 
 	// Текстовое поле
-	// const TEXTISREQUIRED = false;
-	// const MSGSTEXTERROR = "⚠ Поле обязательно для заполнения";
+	const TEXTISREQUIRED = false;
+	const MSGSTEXTERROR = "⚠ Поле обязательно для заполнения";
 
 	// Файл
-	// const FILEISREQUIRED = false;
-	// const MSGSFILEERROR = "⚠ Забыли добавить файл";
+	const FILEISREQUIRED = false;
+	const MSGSFILEERROR = "⚠ Забыли добавить файл";
 
 	// Соглашение
-	// const AGGREMENTISREQUIRED = true;
-	// const MSGSAGGREMENTERROR = "⚠ Примите пользовательское соглашение"; 
+	const AGGREMENTISREQUIRED = true;
+	const MSGSAGGREMENTERROR = "⚠ Примите пользовательское соглашение"; 
 
 	// Сообщение об успешной отправке
 	const MSGSSUCCESS = "Сообщение успешно отправлено";

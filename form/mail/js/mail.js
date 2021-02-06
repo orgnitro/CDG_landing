@@ -6,10 +6,10 @@
 		// Сохраняем в переменные дивы, в которые будем выводить текст ошибки
 		let inpNameError = $(this).find('.contact-form__error_name');
 		let inpEmailError = $(this).find('.contact-form__error_email');
-		// let inpTelError = $(this).find('.contact-form__error_tel');
-		// let inpTextError = $(this).find('.contact-form__error_text');
-		// let inpAgreementError = $(this).find('.contact-form__error_agreement');
-		// let inpFileError = $(this).find('.contact-form__error_file');
+		let inpTelError = $(this).find('.contact-form__error_tel');
+		let inpTextError = $(this).find('.contact-form__error_text');
+		let inpAgreementError = $(this).find('.contact-form__error_agreement');
+		let inpFileError = $(this).find('.contact-form__error_file');
 
 		// Сохраняем в переменную див, в который будем выводить сообщение формы
 		let formDescription = $(this).find('.contact-form__description');
@@ -31,11 +31,11 @@
 					inpNameError.text('');
 				}
 
-				// if (respond.tel) {
-				// 	inpTelError.text(respond.tel);
-				// } else {
-				// 	inpTelError.text('');
-				// }
+				if (respond.tel) {
+					inpTelError.text(respond.tel);
+				} else {
+					inpTelError.text('');
+				}
 
 				if (respond.email) {
 					inpEmailError.text(respond.email);
@@ -43,23 +43,23 @@
 					inpEmailError.text('');
 				}
 
-				// if (respond.text) {
-				// 	inpTextError.text(respond.text);
-				// } else {
-				// 	inpTextError.text('');
-				// }
+				if (respond.text) {
+					inpTextError.text(respond.text);
+				} else {
+					inpTextError.text('');
+				}
 				
-				// if (respond.file) {
-				// 	inpFileError.text(respond.file);
-				// } else {
-				// 	inpFileError.text('');
-				// }
+				if (respond.file) {
+					inpFileError.text(respond.file);
+				} else {
+					inpFileError.text('');
+				}
 
-				// if (respond.agreement) {
-				// 	inpAgreementError.text(respond.agreement);
-				// } else {
-				// 	inpAgreementError.text('');
-				// }
+				if (respond.agreement) {
+					inpAgreementError.text(respond.agreement);
+				} else {
+					inpAgreementError.text('');
+				}
 
 				if (respond.attantion) {
 					formDescription.text(respond.attantion).css('color', '#e84a66').fadeIn();
