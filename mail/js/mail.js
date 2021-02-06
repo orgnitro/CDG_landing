@@ -18,7 +18,6 @@
 			processData: false,
 			contentType: false,
 			success: function success(res) {
-				console.log(res);
 				let respond = $.parseJSON(res);
 				
 				if (respond.name) {

@@ -31,3 +31,5 @@
 	} else {
         $msgs['success'] = 'Message has been sent';
     }
+
+    ?>
