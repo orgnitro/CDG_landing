@@ -13,7 +13,7 @@ let formDescription = $(this).find('.contact-form__description');
 
 		let fd = new FormData(form);
 		$.ajax({
-			url: "/mail/php/mail.php",
+			url: "mail.php",
 			type: "POST",
 			data: fd,
 			processData: false,
