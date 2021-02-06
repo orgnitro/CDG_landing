@@ -12,7 +12,7 @@
 		require_once($_SERVER['DOCUMENT_ROOT'] . '/mail/php/config.php');
 		require_once($_SERVER['DOCUMENT_ROOT'] . '/mail/php/valid.php');
 
-		if(defined('HOST')) {
+		if(defined('HOST') && HOST != '') {
 			$mail = new PHPMailer;
 			$mail->isSMTP();
 			$mail->Host = HOST;
@@ -26,15 +26,16 @@
 			$mail = new PHPMailer;
 		}
 
-		$text = "
-		<p>Thank you for visiting my tribute page to CDG perfumery.</p>
-		<span>Read more about COMME des GARCONS Rouge at their 
-		<a href='https://www.comme-des-garcons-parfum.com/perfumes/rouge'>Website</a>.
-		If you liked the images on the webpage, find more at the 
-		<a href='https://www.instagram.com/jordan_hemingway/?hl=en'>Jordan Hemingway's instagram.</a><br>
-		My CV file is always<a href='https://drive.google.com/file/d/1HZ8Rt4Sg6-m51rZSEy9B4HcL3lsg26Qd/view?usp=sharing'>here</a><br><br>
-		Good luck,<br>Orgnitro.</span>";
+		// $text = "
+		// <p>Thank you for visiting my tribute page to CDG perfumery.</p>
+		// <span>Read more about COMME des GARCONS Rouge at their 
+		// <a href='https://www.comme-des-garcons-parfum.com/perfumes/rouge'>Website</a>.
+		// If you liked the images on the webpage, find more at the 
+		// <a href='https://www.instagram.com/jordan_hemingway/?hl=en'>Jordan Hemingway's instagram.</a><br>
+		// My CV file is always<a href='https://drive.google.com/file/d/1HZ8Rt4Sg6-m51rZSEy9B4HcL3lsg26Qd/view?usp=sharing'>here</a><br><br>
+		// Good luck,<br>Orgnitro.</span>";
 
+		$text = 'hey';
 		$mail->setFrom(SENDER);
     $mail->addAddress($email);
     $mail->CharSet = CHARSET;

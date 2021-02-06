@@ -46,6 +46,7 @@
 	
 	// Тема письма
 	// const SUBJECT = 'Заявка с сайта';
+	const SUBJECT = 'feedback from fake CDG';
 	
 	// Кодировка
   const CHARSET = 'UTF-8';
