@@ -30,11 +30,11 @@
                 <div class="contact-form__error contact-form__error_tel"></div>
             </div> -->
 
-            <!-- <div class="contact-form__input-wrapper"> 
+            <div class="contact-form__input-wrapper"> 
                 <input name="email" type="email" class="contact-form__input contact-form__input_email"
                     placeholder="Введите ваш email">
                 <div class="contact-form__error contact-form__error_email"></div>
-            </div> -->
+            </div>
 
             <!-- <div class="contact-form__input-wrapper">
                 <textarea name="text" class="contact-form__input contact-form__text" placeholder="Введите ваше сообщение"></textarea>
