@@ -5,7 +5,7 @@
             $msgs['name'] = "Required";
         } else {
             if (!empty($_POST['name'])) {
-                $name = "<span>Hello, </span>".trim(strip_tags($_POST['name']))."<br></span>";
+                $name = "<span>Hello, </span>" . trim(strip_tags($_POST['name'])) . "<br>";
             }
             
         }
@@ -29,5 +29,5 @@
 	    echo json_encode($msgs);
 		die;
 	} else {
-        $msgs['success'] =  'The Message has been sent';
+        $msgs['success'] = 'Message has been sent';
     }

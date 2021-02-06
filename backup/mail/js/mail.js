@@ -2,14 +2,13 @@
 	$(".contact-form").submit(function (event) {
 		event.preventDefault();
 		let form = $('#' + $(this).attr('id'))[0];
-		
-// <div>'s for error messages
-let inpNameError = $(this).find('.contact-form__error_name');
-let inpEmailError = $(this).find('.contact-form__error_email');
 
-// <div> that will be shown after the message send
-let formDescription = $(this).find('.contact-form__description');
+		// <div>'s for error messages
+		let inpNameError = $(this).find('.contact-form__error_name');
+		let inpEmailError = $(this).find('.contact-form__error_email');
 
+		// <div> that will be shown after the message send
+		let formDescription = $(this).find('.contact-form__description');
 
 		let fd = new FormData(form);
 		$.ajax({
@@ -19,7 +18,6 @@ let formDescription = $(this).find('.contact-form__description');
 			processData: false,
 			contentType: false,
 			success: function success(res) {
-				console.log(res);
 				let respond = $.parseJSON(res);
 				
 				if (respond.name) {
