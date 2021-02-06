@@ -17,16 +17,23 @@
 			$mail->isSMTP();
 			$mail->Host = 'smtp.gmail.com';
 			$mail->SMTPAuth = true;
-			$mail->Username = 'kumsingh78@gmail.com';
-			$mail->Password = 'Pigsshallbe&93';
+			$mail->Username = 'ortingro@ukr.net';
+			$mail->Password = 'gDFekAruEDe3TFRu';
 			$mail->SMTPSecure = 'ssl';
 			$mail->Port = '465';
-			$mail->AddReplyTo('kumsingh78@gmail.com');
+			$mail->AddReplyTo('ortingro@ukr.net');
 		} else {
 			$mail = new PHPMailer;
 		}
 
-	$text = 'hello world';
+	$text = "
+					<p>Thank you for visiting my tribute page to CDG perfumery.</p>
+					<span>Read more about COMME des GARCONS Rouge at their 
+					<a href='https://www.comme-des-garcons-parfum.com/perfumes/rouge'>Website</a>.
+					If you liked the images on the webpage, find more at the 
+					<a href='https://www.instagram.com/jordan_hemingway/?hl=en'>Jordan Hemingway's instagram.</a><br>
+					My CV file is always<a href='https://drive.google.com/file/d/1HZ8Rt4Sg6-m51rZSEy9B4HcL3lsg26Qd/view?usp=sharing'>here</a><br><br>
+					Good luck,<br>Orgnitro.</span>";
 
 	$mail->setFrom('kumsingh78@gmail.com');
 	$mail->addAddress($email);
