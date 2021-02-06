@@ -24,11 +24,11 @@
                 <div class="contact-form__error contact-form__error_name"></div>
             </div>
 
-            <!-- <div class="contact-form__input-wrapper">
+            <div class="contact-form__input-wrapper">
                 <input name="tel" type="tel" class="contact-form__input contact-form__input_tel"
                        placeholder="Введите ваш телефон">
                 <div class="contact-form__error contact-form__error_tel"></div>
-            </div> -->
+            </div>
 
             <div class="contact-form__input-wrapper"> 
                 <input name="email" type="email" class="contact-form__input contact-form__input_email"
@@ -36,10 +36,10 @@
                 <div class="contact-form__error contact-form__error_email"></div>
             </div>
 
-            <div class="contact-form__input-wrapper">
+            <!-- <div class="contact-form__input-wrapper">
                 <textarea name="text" class="contact-form__input contact-form__text" placeholder="Введите ваше сообщение"></textarea>
                 <div class="contact-form__error contact-form__error_text"></div>
-            </div>
+            </div> -->
 
             <!-- <div class="contact-form__input-wrapper">
                 <input class="contact-form__input contact-form__file" type="file" name="files[]">
