@@ -4,6 +4,13 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>COMME des GARÇONS parfums</title>
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+  <link rel="manifest" href="/site.webmanifest">
+  <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+  <meta name="msapplication-TileColor" content="#ffffff">
+  <meta name="theme-color" content="#ffffff">
   <link rel="preconnect" href="https://fonts.gstatic.com">
   <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="assets/css/simple-lightbox.min.css">
@@ -69,7 +76,7 @@
 <!-- Section C -->
 
     <section class="section-c" id="gallery">
-      <div class="container">
+      <!-- <div class="container"> -->
       <div class="gallery">
         <a href="assets/img/by_hemingway.jpg" class="big">
           <img src="assets/img/by_hemingway.jpg" alt="Rouge by Jordan Hemingway">
@@ -99,7 +106,7 @@
           <img src="assets/img/in_red3.jpg" alt="Rouge bottle in red 3">
         </a>
       </div>
-    </div>
+    <!-- </div> -->
     </section>
 
 <!-- Footer -->
@@ -123,21 +130,23 @@
         <div>
           <form class="contact-form" id="contact-form_1" method="POST" action="contactform.php">
           <h3>Subscribe</h3>
-          <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Optio?</p>
-          <p class="contact-form__description"></p>
-            <div class="contact-form__input-wrapper">
+          <p>You'll get an additional info about COMME des GARÇONS (and with my CV too)</p>
+            <div class="input-wrapper">
               <input name="name" type="text" class="contact-form__input contact-form__input_name"
                   placeholder="Your Name">
               <div class="contact-form__error contact-form__error_name"></div>
             </div>
 
-            <div class="contact-form__input-wrapper"> 
+            <div class="input-wrapper"> 
               <input name="email" type="email" class="contact-form__input contact-form__input_email"
                   placeholder="Your email">
               <div class="contact-form__error contact-form__error_email"></div>
             </div>
 
+            <div class="submit-wrapper">
+              <p class="contact-form__description"></p>
               <button class="contact-form__button" type="submit">Send</button>
+            </div>
           </form>
         </div>
       </div>

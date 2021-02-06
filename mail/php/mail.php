@@ -27,28 +27,26 @@
 			$mail = new PHPMailer;
 		}
 
-		// for ($ct = 0; $ct < count($_FILES['files']['tmp_name']); $ct++) {
-    //     $uploadfile = tempnam(sys_get_temp_dir(), sha1($_FILES['files']['name'][$ct]));
-    //     $filename = $_FILES['files']['name'][$ct];
-    //         if (move_uploaded_file($_FILES['files']['tmp_name'][$ct], $uploadfile)) {
-    //             $mail->addAttachment($uploadfile, $filename);
-    //         } else {
-    //             $msg .= 'failfile';
-    //         }
-    // } 
-
-		$text = '<span>Thank you for visiting COMME des GARCONS fake landing page by Orgnitro.<br>Check out our updates.</span>';
-		$mail->setFrom('kumsingh78@gmail.com');
-    $mail->addAddress($email);
-    $mail->CharSet = 'UTF-8';
-    $mail->isHTML(true);
-		$mail->Subject = "Feedback Form from CDG Fake Landing Page";
-		$mail->Body = "$name $text"; 
-		if(!$mail->send()) {
-    } else {
-      echo json_encode($msgs);
-    }
+	$text = "
+					<p>Thank you for visiting my tribute page to CDG perfumery.</p>
+					<span>Read more about COMME des GARCONS Rouge at their 
+					<a href='https://www.comme-des-garcons-parfum.com/perfumes/rouge'>Website</a>.
+					If you liked the images on the webpage, find more at the 
+					<a href='https://www.instagram.com/jordan_hemingway/?hl=en'>Jordan Hemingway's instagram.</a><br>
+					My CV file is always<a href='https://drive.google.com/file/d/1HZ8Rt4Sg6-m51rZSEy9B4HcL3lsg26Qd/view?usp=sharing'>here</a><br><br>
+					Good luck,<br>Orgnitro.</span>";
+	$mail->setFrom('kumsingh78@gmail.com');
+	$mail->addAddress($email);
+	$mail->CharSet = 'UTF-8';
+	$mail->isHTML(true);
+	$mail->Subject = "Feedback Form from CDG Fake Landing Page";
+	$mail->Body = "$name $text"; 
 	
-	} else{
-    header ("Location: /");
+	if(!$mail->send()) {
+	} else {
+		echo json_encode($msgs);
 	}
+
+} else {
+	header ("Location: /");
+}
