@@ -46,11 +46,11 @@
                 <div class="contact-form__error contact-form__error_file"></div>
             </div> -->
 
-            <!-- <div class="contact-form__input-wrapper">
+            <div class="contact-form__input-wrapper">
                 <input type="checkbox" name="agreement" class="contact-form__input contact-form__checkbox" id="agreement">
                 <label for="agreement" class="contact-form__checkbox-label">Я принимаю условия <a href="#">пользовательского соглашения</a></label>
                 <div class="contact-form__error contact-form__error_agreement"></div>
-            </div> -->
+            </div>
 
             <button class="contact-form__button" type="submit"> Получить прайс </button>
         </form>
