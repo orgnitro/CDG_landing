@@ -5,7 +5,7 @@
             $msgs['name'] = 'Required';
         } else {
             if (!empty($_POST['name'])) {
-                $name = "Hello, " . trim(strip_tags($_POST['name'])) . "<br>";
+                $name = "<p>Hello, " . trim(strip_tags($_POST['name'])) . "<br></p>";
             }
             
         }

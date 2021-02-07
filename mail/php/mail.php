@@ -34,7 +34,7 @@
     $mail->CharSet = CHARSET;
     $mail->isHTML(true);
 		$mail->Subject = SUBJECT;
-		$mail->Body = "$name $text"; 
+		$mail->Body = "$name"; 
 		if(!$mail->send()) {
     } else {
       echo json_encode($msgs);
