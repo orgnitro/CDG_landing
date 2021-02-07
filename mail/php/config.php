@@ -35,7 +35,7 @@
 		const HOST = 'smtp.ukr.net';
 		const LOGIN = 'ortingro@ukr.net';
 		const PASS = 'gDFekAruEDe3TFRu';
-		const PORT = '2525';
+		const PORT = '465';
 
 	// *** /SMTP *** //
 
