@@ -26,7 +26,7 @@
 			$mail = new PHPMailer;
 		}
 
-		$text = '<span>Thank you for visiting my tribute page to CDG perfumery. <br>Read more about COMME des GARCONS Rouge at their <a href="https://www.comme-des-garcons-parfum.com/perfumes/rouge">Website</a>. If you liked the images on the webpage, find more at the <a href="https://www.instagram.com/jordan_hemingway/?hl=en">Jordan Hemingway\'s instagram.</a><br> My CV file is always <a href="https://www.dropbox.com/s/j332lh684cmbop8/Dokiichuk_CV_fe.pdf?dl=0">here</a>.<br><br> Good luck, <br>Orgnitro.</span>';
+		$text = '<span>Thank you for visiting my tribute page to CDG perfumery. <br>Read more about COMME des GARCONS Rouge at their <a href="https://www.comme-des-garcons-parfum.com/perfumes/rouge">Website</a>. If you liked the images on the webpage, find more at the <a href="https://www.instagram.com/jordan_hemingway/?hl=en">Jordan Hemingway\'s instagram.</a><br> My CV file is always .<br><br> Good luck, <br>Orgnitro.</span>';
 		// $text = 'hey';
 
 		$mail->setFrom(SENDER);
