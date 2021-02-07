@@ -40,7 +40,7 @@
 	// *** /SMTP *** //
 
   // Почта с которой будет приходить письмо
-	const SENDER = 'ortingro@ukr.net';
+	const SENDER = 'zozulya.sofia@gmail.com';
 	
 	// Почта на которую будет приходить письмо
 	
