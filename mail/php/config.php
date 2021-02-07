@@ -32,15 +32,15 @@
 	// *** SMTP *** //
 
 		require_once($_SERVER['DOCUMENT_ROOT'] . '/mail/phpmailer/smtp.php');
-		const HOST = 'smtp.gmail.com';
-		const LOGIN = 'kumsingh78@gmail.com';
-		const PASS = 'Pigsshallbe&93';
+		const HOST = 'smtp.ukr.net';
+		const LOGIN = 'ortingro@ukr.net';
+		const PASS = 'gDFekAruEDe3TFRu';
 		const PORT = '465';
 
 	// *** /SMTP *** //
 
   // Почта с которой будет приходить письмо
-	const SENDER = 'kumsingh78@gmail.com';
+	const SENDER = 'ortingro@ukr.net';
 	
 	// Почта на которую будет приходить письмо
 	
