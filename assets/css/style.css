@@ -25,12 +25,6 @@ img {
   width: 100%;
 }
 
-/* .container {
-  margin: auto;
-  overflow: hidden;
-  padding: 0 2rem;
-} */
-
 .navbar {
   font-size: 2vw;
   font-weight: 600;
@@ -196,10 +190,6 @@ img {
 }
 
 /* Section C */
-
-/* .section-c {
-  height: 100vh;
-} */
 
 .section-c .gallery {
   display: grid;
@@ -563,6 +553,10 @@ img {
 
   .section-footer .subscribe {
     order: -1;
+  }
+
+  .section-footer .subscribe img {
+    display: none;
   }
 
   .section-footer .contact-form__wrapper {
